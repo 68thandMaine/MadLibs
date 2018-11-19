@@ -15,6 +15,7 @@ namespace FriendLetter
       .AddEnvironmentVariables();
       Configuration = builder.Build();
     }
+
     public IConfigurationRoot Configuration { get; }
 
     public void ConfigureServices(IServiceCollection services)
@@ -28,13 +29,12 @@ namespace FriendLetter
       {
         routes.MapRoute(
         name: "default",
-        template: "{controller=Home}/{actoin=Index}/{id?}"
-        );
+        template: "{controller=Home}/{action=Index}/{id?}");
         });
-        app.Run(async(context) =>
+        app.Run(async (context) =>
         {
           await context.Response.WriteAsync("Hello World!");
           });
+        }
+      }
     }
-  }
-}
