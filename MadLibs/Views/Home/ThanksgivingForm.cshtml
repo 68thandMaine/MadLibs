@@ -5,11 +5,18 @@
   <meta charset='utf-8'>
   <title>Create a MadLib!</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
-  <h1>Thanksgiving MadLibs!!</h1>
-  <h2>Fill in the below information to see a MadLib that's sure to make you giggle on turkey day</h2>
+
+  <div class="jumbotron jumbotron-fluid" id="header">
+    <div class="container">
+      <h1>Thanksgiving MadLibs!!</h1>
+      <p>Fill in the below information to see a MadLib that's sure to make you giggle on turkey day</p>
+    </div>
+  </div>
+
   <form action="/MadLib1" method="post">
     <div class="form-group">
       <label for="noun">Enter six nouns</label>
