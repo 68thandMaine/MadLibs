@@ -1,9 +1,0 @@
-/Users/playourheartout/Desktop/FriendLetter.Solution/bin/Debug/netcoreapp1.1/FriendLetter.deps.json
-/Users/playourheartout/Desktop/FriendLetter.Solution/bin/Debug/netcoreapp1.1/FriendLetter.runtimeconfig.json
-/Users/playourheartout/Desktop/FriendLetter.Solution/bin/Debug/netcoreapp1.1/FriendLetter.runtimeconfig.dev.json
-/Users/playourheartout/Desktop/FriendLetter.Solution/bin/Debug/netcoreapp1.1/FriendLetter.dll
-/Users/playourheartout/Desktop/FriendLetter.Solution/bin/Debug/netcoreapp1.1/FriendLetter.pdb
-/Users/playourheartout/Desktop/FriendLetter.Solution/obj/Debug/netcoreapp1.1/FriendLetter.csproj.CoreCompileInputs.cache
-/Users/playourheartout/Desktop/FriendLetter.Solution/obj/Debug/netcoreapp1.1/FriendLetter.AssemblyInfo.cs
-/Users/playourheartout/Desktop/FriendLetter.Solution/obj/Debug/netcoreapp1.1/FriendLetter.dll
-/Users/playourheartout/Desktop/FriendLetter.Solution/obj/Debug/netcoreapp1.1/FriendLetter.pdb
