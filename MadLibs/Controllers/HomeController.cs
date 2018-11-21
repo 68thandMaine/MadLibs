@@ -3,7 +3,7 @@ using MadLibs.Models;
 
 namespace MadLibs.Controllers
 {
-  public class HomeController : Controllers{
+  public class HomeController : Controller
   {
     [Route("/")]
     public ActionResult ThanksgivingForm()
@@ -12,7 +12,7 @@ namespace MadLibs.Controllers
     }
 
     [Route("/MadLib1")]
-    public ActionResult ThanksgivingMadLib(string noun1, string noun2, string noun4, string noun5, string noun6, string noun7, string pluralNoun1, string pluralNoun2, string adjective1, string adjective2, string adjective 3, string number1, string number2)
+    public ActionResult ThanksgivingMadLib(string noun1, string noun2, string noun3, string noun4, string noun5, string noun6, string noun7, string pluralNoun1, string pluralNoun2, string adjective1, string adjective2, string adjective3, string number1, string number2)
     {
       MadLibVariable myMadLibVariable = new MadLibVariable();
       myMadLibVariable.SetNoun1(noun1);

@@ -21,7 +21,7 @@ namespace MadLibs.Models
     {
       return _noun1;
     }
-    private void SetNoun1(string newNoun)
+    public void SetNoun1(string newNoun)
     {
       _noun1 = newNoun;
     }
@@ -30,7 +30,7 @@ namespace MadLibs.Models
     {
       return _noun2;
     }
-    private void SetNoun2(string newNoun)
+    public void SetNoun2(string newNoun)
     {
       _noun2 = newNoun;
     }
@@ -39,7 +39,7 @@ namespace MadLibs.Models
     {
       return _noun3;
     }
-    private void SetNoun3(string newNoun)
+    public void SetNoun3(string newNoun)
     {
       _noun3 = newNoun;
     }
@@ -48,7 +48,7 @@ namespace MadLibs.Models
     {
       return _noun4;
     }
-    private void SetNoun4(string newNoun)
+    public void SetNoun4(string newNoun)
     {
       _noun4 = newNoun;
     }
@@ -56,7 +56,7 @@ namespace MadLibs.Models
     {
       return _noun5;
     }
-    private void SetNoun5(string newNoun)
+    public void SetNoun5(string newNoun)
     {
       _noun5 = newNoun;
     }
@@ -64,7 +64,7 @@ namespace MadLibs.Models
     {
       return _noun6;
     }
-    private void SetNoun6(string newNoun)
+    public void SetNoun6(string newNoun)
     {
       _noun6 = newNoun;
     }
@@ -72,7 +72,7 @@ namespace MadLibs.Models
     {
       return _noun7;
     }
-    private void SetNoun7(string newNoun)
+    public void SetNoun7(string newNoun)
     {
       _noun7 = newNoun;
     }
@@ -83,7 +83,7 @@ namespace MadLibs.Models
     {
       return _pluralNoun1;
     }
-    private void SetPluralNoun1(string newNoun)
+    public void SetPluralNoun1(string newNoun)
     {
       _pluralNoun1 = newNoun;
     }
@@ -91,7 +91,7 @@ namespace MadLibs.Models
     {
       return _pluralNoun2;
     }
-    private void SetPluralNoun2(string newNoun)
+    public void SetPluralNoun2(string newNoun)
     {
       _pluralNoun2 = newNoun;
     }
