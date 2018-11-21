@@ -8,6 +8,7 @@ namespace MadLibs.Models
     private string _noun4;
     private string _noun5;
     private string _noun6;
+    private string _noun7;
     private string _pluralNoun1;
     private string _pluralNoun2;
     private string _adjective1;
@@ -67,6 +68,17 @@ namespace MadLibs.Models
     {
       _noun6 = newNoun;
     }
+    public string GetNoun7()
+    {
+      return _noun7;
+    }
+    private void SetNoun7(string newNoun)
+    {
+      _noun7 = newNoun;
+    }
+
+
+
     public string GetPluralNoun1()
     {
       return _pluralNoun1;
