@@ -5,9 +5,13 @@ namespace MadLibs.Controllers
 {
   public class HomeController : Controllers{
   {
-    
-
     [Route("/")]
+    public ActionResult ThanksgivingForm()
+    {
+      return View();
+    }
+
+    [Route("/MadLib1")]
     public ActionResult ThanksgivingMadLib(string noun1, string noun2, string noun4, string noun5, string noun6, string noun7, string pluralNoun1, string pluralNoun2, string adjective1, string adjective2, string adjective 3, string number1, string number2)
     {
       MadLibVariable myMadLibVariable = new MadLibVariable();
